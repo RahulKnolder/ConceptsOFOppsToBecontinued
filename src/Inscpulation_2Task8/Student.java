@@ -1,3 +1,8 @@
+
+/*You are building a student grading system in Java. The system needs to store the grades for each student.
+How would you use encapsulation to ensure that the grades can only be accessed and modified by authorized code?
+ */
+
 package Inscpulation_2Task8;
 
 import java.util.Scanner;

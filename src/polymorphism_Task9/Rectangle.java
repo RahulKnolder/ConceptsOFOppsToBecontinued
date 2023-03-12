@@ -1,4 +1,4 @@
-package polymorphism_Task4;
+package polymorphism_Task9;
 
 public class Rectangle extends Shape {
     private int width;

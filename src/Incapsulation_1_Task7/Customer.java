@@ -1,3 +1,10 @@
+
+
+
+/*  Question :-You are building a banking application in Java. The application needs to store the account balance for each
+customer. How would you use encapsulation to ensure that the account balance can
+only be accessed and modified by authorized code? */
+
 package Incapsulation_1_Task7;
 
 import java.util.Scanner;
@@ -42,7 +49,7 @@ public class Customer {
         }
     }
 
-    // main method for testing
+
     public static void main(String[] args) {
 
 
@@ -70,7 +77,7 @@ public class Customer {
         read.nextLine();
         String passwordToWidhdraw = read.nextLine();
 
-
+           //invoking withdraw method to withdraw money in authorization
         customer.withdraw(amountToWithdraw, passwordToWidhdraw);
         System.out.println("New account balance: " + customer.getAccountBalance());
     }
